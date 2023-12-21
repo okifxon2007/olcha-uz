@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conta{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1500px;
+}
+nav{
+    display: flex;
+}
+
+nav button{
+    margin-left: 30px;
+}
+.btn1{
+    margin-top: 20px;
+    width: 170px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    background-color: #fff;
+    color: #DA002B;
+    font-family:sans-serif;
+    font-size: 17px;
+    transition: 0.5s all;
+}
+.btn1:hover{
+    background-color:#DA002B;
+    color: white;
+    transition: 0.5s all;
+    border: 1px solid white;
+    
+}
+.btn2{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: #DA002B;
+    color: white;
+    font-family:  sans-serif;
+    font-size: 17px;
+    transition: 0.5s all;
+}
+.btn2:hover{
+    background-color:white;
+    color: #DA002B;
+    transition: 0.5s all;
+    
+}
+nav a{
+    text-decoration: none;
+    font-family: sans-serif ;
+    color: white;
+    margin-top: 29px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+nav h2{
+    color: white;
+    margin-left: 100px;
+    margin-top: 27px;
+    font-family:   sans-serif;
+
+}
+nav h3{
+    color: white;
+    margin-top: 27px;
+    margin-left: 30px;
+}
+nav hr{
+    color: rgb(155, 155, 155);
+}
+nav{
+    margin-top:0px;
+    width: 1500px;
+    height: 80px;
+    background-color: #DA002B;
+}
+main{
+    display: flex;
+}
+main form{
+    display: flex;
+}
+.parag{
+    display: flex;
+    margin-left: 10px;
+}
+.p {
+    margin-left: 10px;
+}
+.btn5{
+    border: 3px solid black;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 160px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.btn5 span{
+    display: inline-block;
+}
+form input{
+    width: 650px;
+    height: 50px;
+    padding: 10px 10px 10px ;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 15px ;
+    border: 1px solid transparent;
+    background-color: #E4E4E4;
+    position: relative;
+}
+.btn4{
+    margin-top: 19.2px;
+    margin-left: 590px;
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    border-radius: 15px ;
+    font-size: 20px;
+    color: white;
+    background-color: #DA002B;
+    border: 1px solid transparent;
+}
+.p{
+    margin-left: 30px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.p i{
+    margin-bottom: 5px;
+    margin-left: 15px;
+}
+.main2 img{
+    width: 1100px;
+    margin-top: 30px;
+}
+.main2-df img{
+    width: 120px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 45px;
+}
+.main2-page h2{
+    font-family: sans-serif;
+    margin-top: 50px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+.main2-page{
+    border-radius: 20px;
+    margin-top: 33px;
+    width: 500px;
+    border: 4px solid #DA002B;
+    height: 500px;
+   
+}
+.mainimg{
+    margin-left: 65px;
+}
+.main2-page p{
+    font-size: 22px;
+    margin-left: 50px;
+}
+.main2-page h3{
+    margin-left: 50px;
+    margin-top: 10px;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.main2-page button{
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left:50px;
+    margin-top: 10px;
+    border: 1px solid #FFD740;
+    background-color: #FFD740;
+    width: 150px;
+    height: 20px;
+}
+.main3img img{
+    cursor: pointer;
+    width: 1450px;
+    margin-left: 20px;
+}
+.main3p{
+    display: flex;
+}
+.main3p p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    transition: 0.5s all ease;
+    cursor: pointer;
+}
+.main3p p:hover{
+    color: #DA002B;
+    transition: 0.5s all ease;
+} 
+.main4 img{
+     width: 1470px;
+     margin-left: 20px;
+}
